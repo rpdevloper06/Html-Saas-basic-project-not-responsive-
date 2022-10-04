@@ -1,0 +1,23 @@
+p {
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+$mainColor: rgb(1, 238, 255);
+$bgColor: black;
+$fontSize: 20px;
+$textAlign: center;
+$bodyBg: #e6f1fb;
+$btnColor: #253570;
+$hrColor: #253570b5;
+$whtText: #fff;
+$whtBg: #fff;
+$activeColor: cadetblue;
+$transparentBg: transparent;
+// This comment visible on SASS
+
+/*
+This comment visible on CSS
+*/
+$defaultColor: rgb(0, 0, 0);

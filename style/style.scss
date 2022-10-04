@@ -1,0 +1,76 @@
+@import './variable.scss';
+@import './heading-tag.scss';
+@import './paragraph.scss';
+@import '.nav.scss';
+
+@mixin headingStyle($color: $defaultColor) {
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-weight: 600;
+    color: $color;
+}
+
+@mixin displayStyle {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    @include displayStyle;
+    width: 1140px;
+    margin: auto;
+    background: $bodyBg;
+}
+
+
+.logo {
+    @include displayStyle;
+    width: 30%;
+    float: left;
+}
+
+.bodyContainer,
+.body_row {
+    @include displayStyle;
+    float: left;
+}
+
+.body_Col1,
+.body_Col2,
+.body_Col3 {
+    @include displayStyle;
+    width: 31%;
+    float: left;
+      text-align: center;
+    margin-right: 20px;
+}
+
+
+.image2 img {
+    width: 80%;
+}
+
+
+.menuBar {
+    display: block;
+    float: left;
+    width: 70%;
+    background: $transparentBg;
+}
+
+
+
+
+
+
+.button {
+
+    background: $bgColor;
+    color: #fff;
+}
+
+
+.super-button {
+    @extend .button;
+    background: red;
+}

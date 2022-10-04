@@ -1,0 +1,42 @@
+nav {
+    float: right;
+
+
+    ul {
+        list-style: none;
+
+
+        li {
+
+
+            text-align: center;
+            @include headingStyle($color: $btnColor);
+
+
+
+
+            &:hover {
+                color: yellow;
+            }
+
+            a:hover {
+                background: $hrColor;
+
+            }
+
+            display: inline-block;
+
+            a {
+                color: $whtText;
+                background: $bgColor;
+                text-decoration: none;
+                padding: 15px 40px;
+                width: 600px;
+
+
+            }
+
+
+        }
+    }
+}

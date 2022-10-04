@@ -1,0 +1,7 @@
+@for $i from 1 through 6 {
+    h#{$i} {
+        @include headingStyle($color: $defaultColor);
+        text-align: $textAlign;
+        //width: 30%;
+    }
+}
